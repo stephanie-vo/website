@@ -54,7 +54,12 @@ export const NavBar = () => {
                                 <img src={navIcon2} alt="GitHub" />
                             </a>
                         </div>
-                        <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+                        <button
+                            className="vvd"
+                            onClick={() => window.location.href = 'mailto:stephaniekvo@gmail.com'}
+                        >
+                            <span>Let's Connect</span>
+                        </button>
                     </span>
                 </Navbar.Collapse>
             </Container>

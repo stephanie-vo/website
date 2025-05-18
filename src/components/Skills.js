@@ -1,14 +1,50 @@
 //import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
-import { Globe, Code, Database, FileCode } from "react-bootstrap-icons";
+import { Code, FileCode, Wrench, Gear, Globe } from 'react-bootstrap-icons';
 import headerImg from "../assets/img/header-img.svg";
 
 export const Skills = () => {
   const skillsData = [
-    { category: "Programming Languages", skills: ["Python", "Java", "C++"], className: "programming-languages", icon: <Code size={20} /> },
-    { category: "Web Development", skills: ["HTML", "CSS", "JavaScript", "React"], className: "web-development", icon: <Globe size={20} /> },
-    { category: "Database", skills: ["SQL", "MongoDB"], className: "database", icon: <Database size={20} /> },
-    { category: "Version Control", skills: ["Git"], className: "version-control", icon: <FileCode size={20} /> },
+    {
+      category: "Languages",
+      skills: [
+        "SystemVerilog", "Verilog", "Python", "C++", "C", "MATLAB", "TCL", "Perl", "Bash"
+      ],
+      className: "languages",
+      icon: <Code size={20} />
+    },
+    {
+      category: "Design & Verification Tools",
+      skills: [
+        "UVM", "Quartus", "Vivado", "QuestaSim", "Cadence Xcelium", "Lattice iCEcube2"
+      ],
+      className: "design-tools",
+      icon: <FileCode size={20} />
+    },
+    {
+      category: "Lab Skills",
+      skills: [
+        "Oscilloscope", "Function Generator", "Logic Analyzer", "Circuit Analysis"
+      ],
+      className: "lab-skills",
+      icon: <Wrench size={20} />
+    },
+    {
+      category: "Tools",
+      skills: [
+        "Git", "Linux", "Jira", "Jenkins"
+      ],
+      className: "tools",
+      icon: <Gear size={20} />
+    },
+    {
+      category: "Web Development",
+      skills: [
+        "HTML", "CSS", "JavaScript", "React"
+      ],
+      className: "web-dev",
+      icon: <Globe size={20} />
+    },
   ];
 
   return (

@@ -53,13 +53,20 @@ html {
 
 body {
   font-weight: 400;
-  overflow-x: hidden;
   position: relative;
   /* background-color: #191622 !important; */
   color: #fff !important;
   font-family: 'Cormorant Garamond', serif !important;
   font-style: italic;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
 
+html,
+body,
+#root,
+.App {
+  height: 100%;
 }
 
 h1,
@@ -465,6 +472,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 45px;
   font-weight: 700;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .project p {
@@ -475,6 +483,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 14px auto 30px auto;
   text-align: center;
   width: 56%;
+}
+
+.project a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .project .nav.nav-pills {
@@ -599,7 +612,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Contact Css ************/
+/************ Projects Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;
@@ -688,88 +701,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Footer Css ************/
 .footer {
-  padding: 40px 0;
-  background-image: url('./assets/img/footer-bg.png');
+  padding: 12px 0;
+  background-image: url('./assets/img/banner-bg.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.newsletter-bx {
-  background: #FFFFFF;
-  border-radius: 55px;
-  color: #121212;
-  padding: 85px 125px;
-  margin-bottom: 80px;
-  margin-top: -122px;
-}
-
-.newsletter-bx h3 {
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  line-height: 1.2em;
-}
-
-.new-email-bx {
-  background: #fff;
-  padding: 5px;
-  border-radius: 20px;
-  position: relative;
-  z-index: 0;
-  display: flex;
-  align-items: center;
-}
-
-.new-email-bx::before {
-  content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  border-radius: 20px;
-  position: absolute;
-  z-index: -1;
-  top: -1px;
-  left: -1px;
-  bottom: -1px;
-  right: -1px;
-}
-
-.new-email-bx::after {
-  content: "";
-  background: #fff;
-  border-radius: 20px;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-
-.new-email-bx input {
-  width: 100%;
-  color: #121212;
-  font-weight: 500;
-  background: transparent;
-  border: 0;
-  padding: 0 15px;
-}
-
-.new-email-bx button {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  padding: 20px 65px;
-  color: #fff;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  border-radius: 18px;
-}
-
 .footer img {
-  width: 26%;
+  width: 15%;
 }
 
 .footer p {
   font-weight: 400;
-  font-size: 14px;
-  color: #B8B8B8;
+  font-size: 18px;
+  color: #FFF;
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
@@ -834,28 +780,29 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /* Category-specific colors */
-.programming-languages .skill {
-  background: rgb(240, 122, 174);
-  background: linear-gradient(90deg, rgba(240, 122, 174, 1) 0%, rgba(200, 89, 255, 1) 100%);
+.languages .skill {
+  background: linear-gradient(90deg, rgba(255, 124, 187, 1) 0%, rgba(147, 78, 255, 1) 100%);
   color: #fff;
 }
 
-.web-development .skill {
-  background: rgb(132, 255, 248);
-  background: linear-gradient(90deg, rgba(132, 255, 248, 1) 0%, rgba(167, 160, 255, 1) 100%);
-  color: #333;
-}
-
-.database .skill {
-  background: rgb(154, 108, 255);
-  background: linear-gradient(90deg, rgba(154, 108, 255, 1) 0%, rgba(255, 160, 243, 1) 100%);
+.design-tools .skill {
+  background: linear-gradient(90deg, rgba(98, 203, 255, 1) 0%, rgba(144, 115, 255, 1) 100%);
   color: #fff;
 }
 
-.version-control .skill {
-  background: rgb(154, 108, 255);
-  background: linear-gradient(90deg, rgba(154, 108, 255, 1) 0%, rgba(160, 255, 255, 1) 100%);
-  color: #333;
+.lab-skills .skill {
+  background: linear-gradient(90deg, rgba(255, 124, 187, 1) 0%, rgba(147, 78, 255, 1) 100%);
+  color: #fff;
+}
+
+.tools .skill {
+  background: linear-gradient(90deg, rgba(98, 203, 255, 1) 0%, rgba(144, 115, 255, 1) 100%);
+  color: #fff;
+}
+
+.web-dev .skill {
+  background: linear-gradient(90deg, rgba(255, 124, 187, 1) 0%, rgba(147, 78, 255, 1) 100%);
+  color: #fff;
 }
 
 /* .skills-photo {

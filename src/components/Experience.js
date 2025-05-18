@@ -6,27 +6,31 @@ export const Experience = () => {
 
     const experiences = [
         {
-            company: 'Company A',
-            logo: navIcon1, // Replace with actual logo path
-            position: 'Software Engineer',
-            location: 'City A, Country A',
-            startDate: 'January 2019',
-            endDate: 'December 2021', // 'Present' can be used for ongoing roles
+            company: 'Ericsson',
+            logo: navIcon1,
+            position: 'FPGA Developer Intern',
+            location: 'Kanata, ON',
+            startDate: 'May 2023',
+            endDate: 'August 2024',
             achievements: [
-                'Implemented feature X, resulting in a 20% increase in user engagement.',
-                'Collaborated with cross-functional teams to deliver project Y ahead of schedule.',
+                'Automated FPGA build processes using Python, creating a Quartus build script to streamline development workflows.',
+                'Contributed to migrating FPGA project codebase from ClearCase to Git by updating scripts, restructuring repositories, and supporting team onboarding to Git workflows.',
+                'Developed UVM-based tests and sequences in SystemVerilog for Xilinx FPGA, including the implementation of scoreboards, monitors, and functional coverage to ensure comprehensive verification of the design.',
+                'Managed regression test suites with Jenkins to continuously verify FPGA functionality throughout the project.',
+                'Collaborated with designers to implement code coverage analysis, assessing the effectiveness of test cases.',
             ],
         },
         {
-            company: 'Company B',
-            logo: navIcon2, // Replace with actual logo path
-            position: 'Frontend Developer',
-            location: 'City B, Country B',
-            startDate: 'March 2022',
-            endDate: 'Present', // 'Present' can be used for ongoing roles
+            company: 'Metso Outotec',
+            logo: navIcon2,
+            position: 'Project Engineer Intern',
+            location: 'Burlington, ON',
+            startDate: 'May 2022',
+            endDate: 'September 2022',
             achievements: [
-                'Designed and implemented responsive user interfaces for web applications.',
-                'Optimized website performance, resulting in a 30% reduction in page load times.',
+                'Supported project managers with 3 engineering, procurement and construction (EPC) projects valued over $80M USD.',
+                'Assisted with project execution by coordinating with teams, contractors, and stakeholders to meet project timelines.',
+                'Coordinated timely distribution of transmittals to clients in Aconex and ensured the accuracy and completeness of project documentation by reviewing drawings, specifications, and requisitions for consistency with project contract.',
             ],
         },
     ];
