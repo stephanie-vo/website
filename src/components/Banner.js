@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
 import bubble from '../assets/img/bubble.png';
-import heartImg1 from  '../assets/img/heart1.png';
-import heartImg2 from  '../assets/img/heart2.png';
+import heartImg1 from '../assets/img/heart1.png';
+import heartImg2 from '../assets/img/heart2.png';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -14,7 +14,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Engineering Physics Student", "FPGA Developer", "Passionate about physics, technology and semiconductors" ];
+  const toRotate = ["Engineering Physics Student", "FPGA Developer", "Passionate about physics, technology and semiconductors"];
   const period = 2000;
 
   useEffect(() => {
@@ -57,19 +57,19 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <h1>{`Hi! I'm Stephanie`}</h1>
-                <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Engineering Physics Student", "FPGA Developer", "Passionate about physics, technology and semiconductors" ]'><span className="wrap">{text}</span></span></h1>
-              </div>}
+                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                  <h1>{`Hi! I'm Stephanie`}</h1>
+                  <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Engineering Physics Student", "FPGA Developer", "Passionate about physics, technology and semiconductors" ]'><span className="wrap">{text}</span></span></h1>
+                </div>}
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={bubble} alt="Bubble" className="bubble"/>
-                  <img src={heartImg1} alt="Image of heart" className = "heart1"/>
-                  <img src={heartImg2} alt="Image of heart" className = "heart2"/>
+                  <img src={bubble} alt="Bubble" className="bubble" />
+                  <img src={heartImg1} alt="Image of heart" className="heart1" />
+                  <img src={heartImg2} alt="Image of heart" className="heart2" />
                 </div>}
             </TrackVisibility>
           </Col>

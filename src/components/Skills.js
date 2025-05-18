@@ -6,9 +6,9 @@ import headerImg from "../assets/img/header-img.svg";
 export const Skills = () => {
   const skillsData = [
     { category: "Programming Languages", skills: ["Python", "Java", "C++"], className: "programming-languages", icon: <Code size={20} /> },
-    { category: "Web Development", skills: ["HTML", "CSS", "JavaScript", "React"], className: "web-development", icon: <Globe size={20} />  },
-    { category: "Database", skills: ["SQL", "MongoDB"], className: "database",icon: <Database size={20} /> },
-    { category: "Version Control", skills: ["Git"], className: "version-control",icon: <FileCode size={20} /> },
+    { category: "Web Development", skills: ["HTML", "CSS", "JavaScript", "React"], className: "web-development", icon: <Globe size={20} /> },
+    { category: "Database", skills: ["SQL", "MongoDB"], className: "database", icon: <Database size={20} /> },
+    { category: "Version Control", skills: ["Git"], className: "version-control", icon: <FileCode size={20} /> },
   ];
 
   return (
@@ -33,10 +33,10 @@ export const Skills = () => {
           ))}
         </div>
       </div>
-      <div className="skills-photo" alt="skills photo">
+      {/* <div className="skills-photo" alt="skills photo">
         <img src={headerImg} />
-      </div>
-      
+      </div> */}
+
     </section>
   );
 };

@@ -1,7 +1,6 @@
 import React from 'react';
-import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
+import navIcon1 from '../assets/img/ericsson.png';
+import navIcon2 from '../assets/img/metso.svg';
 
 export const Experience = () => {
 
@@ -33,7 +32,7 @@ export const Experience = () => {
     ];
 
     return (
-        <section id="experience">
+        <section id="experience" className="experience">
             <div className="container">
                 <h2 className="section-title">Work Experience</h2>
                 <div className="experience-list">
