@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.14c21aa9.css",
+    "main.css": "/website/static/css/main.3629ed7e.css",
     "main.js": "/website/static/js/main.a1095dd8.js",
     "static/js/787.d4aba7ab.chunk.js": "/website/static/js/787.d4aba7ab.chunk.js",
     "static/media/aura-bg.png": "/website/static/media/aura-bg.9edc87ca4b1f6ff5c04d.png",
@@ -8,7 +8,7 @@
     "static/media/project-img3.png": "/website/static/media/project-img3.899eb211f7fe81c92f6f.png",
     "static/media/aura-bg2.png": "/website/static/media/aura-bg2.b85fb1d09751a8af930d.png",
     "static/media/logo.png": "/website/static/media/logo.091ad176cd518a7a85ac.png",
-    "static/media/aura-bg3.png": "/website/static/media/aura-bg3.f02d76a95980e17127cc.png",
+    "static/media/aura-bg3.png": "/website/static/media/aura-bg3.d444219ff5f0696aba6d.png",
     "static/media/project-img1.png": "/website/static/media/project-img1.a894a5814d0de577f48f.png",
     "static/media/CormorantGaramond-Regular.ttf": "/website/static/media/CormorantGaramond-Regular.1db7dc7c1b5f884f2570.ttf",
     "static/media/CormorantGaramond-Bold.ttf": "/website/static/media/CormorantGaramond-Bold.2c851392540e0bda9c51.ttf",
@@ -27,12 +27,12 @@
     "static/media/logo.svg": "/website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/website/index.html",
     "static/media/nav-icon1.svg": "/website/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.14c21aa9.css.map": "/website/static/css/main.14c21aa9.css.map",
+    "main.3629ed7e.css.map": "/website/static/css/main.3629ed7e.css.map",
     "main.a1095dd8.js.map": "/website/static/js/main.a1095dd8.js.map",
     "787.d4aba7ab.chunk.js.map": "/website/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.14c21aa9.css",
+    "static/css/main.3629ed7e.css",
     "static/js/main.a1095dd8.js"
   ]
 }
